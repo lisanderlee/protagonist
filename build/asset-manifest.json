@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.cb7f6073.css",
+    "main.js": "./static/js/main.6fb3eded.js",
+    "static/media/Experience.gif": "./static/media/Experience.bec9c4c93cec9d544d95.gif",
+    "static/media/Absolut.gif": "./static/media/Absolut.25809ec1ce3ecabfbb91.gif",
+    "static/media/coin.png": "./static/media/coin.0e1d9b408b682f31fade.png",
+    "static/media/idea.png": "./static/media/idea.cebd39c9eea2ea420365.png",
+    "static/media/xr.png": "./static/media/xr.07698d7cb8f6206d3361.png",
+    "static/media/rental.png": "./static/media/rental.8cb111f958991b434d5e.png",
+    "static/media/rep.png": "./static/media/rep.9f3991d33e61fba99105.png",
+    "static/media/turnkey.png": "./static/media/turnkey.b7b1fe02273e93a13291.png",
+    "static/media/metamask.svg": "./static/media/metamask.830735e3b15fe3a74ecbacac0949d9c0.svg",
+    "static/media/web3.svg": "./static/media/web3.ce1ae0f98c072f5045aa53c0aa435624.svg",
+    "static/media/decentraland.svg": "./static/media/decentraland.b51c6558000a8317084cfedb7a11cd9b.svg",
+    "static/media/javascript.svg": "./static/media/javascript.de4c2594613e34b15666206bbede7327.svg",
+    "index.html": "./index.html",
+    "main.cb7f6073.css.map": "./static/css/main.cb7f6073.css.map",
+    "main.6fb3eded.js.map": "./static/js/main.6fb3eded.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb7f6073.css",
+    "static/js/main.6fb3eded.js"
+  ]
+}

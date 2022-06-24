@@ -1,0 +1,527 @@
+/*---------------------------GLOBAL SECTION STYLING-------------------------*/
+
+.section{
+padding-top: 200px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+p, h2, h3, h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.title{
+    font-size:4vw;
+    font-weight: 700;
+    color: white; 
+    margin-bottom: 20px;
+}
+
+.subtitle{
+    font-size:2vw;
+    font-weight: 700;
+    color: white;
+}
+
+.body-copy{
+    font-size:1.5vw;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: white;  
+}
+
+.image-border img{
+    border-radius: 20px;
+}
+
+/*---------------------------CALLOUT--------------------------*/
+
+.callout {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    background-color: #DEF36A;
+}
+
+.callout h2{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+   
+    
+}
+.callout-text{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*---------------------------WHAT--------------------------*/
+
+.what{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.what-copy {
+    margin-right: 6vw;
+}
+
+.what-image img{
+    width: 100%;
+}
+
+
+/*---------------------------PROPRIETARY--------------------------*/
+
+.proprietary{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.proprietary-copy {
+    margin-right: 6vw;
+}
+
+.proprietary-image img{
+    width: 100%;
+}
+
+
+
+/*---------------------------USE--------------------------*/
+
+.use{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.use-title h3{
+    margin-left:6vw; 
+}
+
+
+.use-copy {
+    margin-left:6vw; 
+}
+
+.use-image img{
+    width: 100%;
+}
+
+.tech-logos{
+    display: flex;
+    flex-direction: row;
+    margin-left:6vw; 
+    margin-top: 30px;
+  
+}
+
+.tech-logos img{
+    width: 64px;
+    height: 65px;
+    margin-right: 40px;
+  
+}
+
+   /*---------------------------SERVICES--------------------------*/
+
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.services-title {
+    text-align: center;
+}
+
+.services-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.services-content-column{
+    width: 100%;
+    align-items:baseline;
+}
+
+.services-item{
+    margin-top: 100px;
+  padding: 30px;
+  
+    width: 100%;
+}
+.divisor{
+    height: 100px;
+    width: 1px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.services-content-column  img{
+    width: 100px;
+    height: 100px;
+   margin-bottom: 30px;
+
+}
+/*---------------------------WORK--------------------------*/
+
+.work{
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.work-content{
+    width: 180%;
+    margin-right: 30px;
+}
+
+.work-content img{
+    border-radius: 25px;
+   width: 100%;
+    margin-bottom: 30px;
+}
+
+.work-text {
+    width: 100%;
+}
+.work-title h2{
+    width: 100%;
+    font-size:4.5vw;
+}
+.work-caption p{
+    justify-content: center;
+    align-content: center;
+    width:100%;
+    font-size:1.3vw;
+}
+
+
+/*---------------------------ABOUT--------------------------*/
+
+
+.about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.about-title h3{
+    font-size:5vw;
+    color: #DEF36A;
+    margin: 0px;
+}
+
+.about-copy {
+    font-size:1.5vw;
+    font-weight: 300;
+    color: white;
+    line-height: 1.5em;
+    
+  }
+
+/*---------------------------CONTACT--------------------------*/
+
+.contact{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.
+.contact-copy{
+    
+    margin-right: 100px;
+}
+.contact-title{
+    color: #DEF36A;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+.contact-input{
+    font-size: 1.5rem;
+    border: none;
+    margin-top: 15px;
+    padding-right: 100px;
+    padding: 30px;    
+    border-radius: 25px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    width: 100%;
+}
+
+.contact-message{
+    font-size: 1.5rem;
+    border: none;
+    margin-top: 15px;
+    padding: 30px;
+    padding-bottom: 150px;
+    border-radius: 20px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+
+.contact-button{
+    font-size: 1.5rem;
+    border: none;
+    margin-top: 15px;
+    padding: 30px;
+    border-radius: 100px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+    padding: 15px 40px 15px 40px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+    transition-duration: 0.4s;
+}
+
+.contact-button:hover {
+    background-color: #DEF36A;
+    color: rgb(21, 21, 21);
+  }
+  
+    /*------------------------------------MOBILE-----------------------------------------*/
+
+@media screen and (max-width: 808px) {
+
+    /*---------------------------GLOBAL SECTION STYLING-------------------------*/
+
+    .section{
+        padding-top: 80px;
+    }
+    
+    .container{
+        padding-left: 20px;
+        padding-right: 55px;
+
+    }
+
+    .column{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    p, h2, h3, h4 {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .title{
+        font-size:7vw;
+        font-weight: 700;
+        color: white; 
+        margin-bottom: 10px;
+    }
+    
+    .subtitle{
+        font-size:7vw;
+        font-weight: 700;
+        color: white;
+    }
+    
+    .body-copy{
+        font-size:5vw;
+        line-height: 1.5em;
+        font-weight: 300;
+        color: white;  
+    }
+    
+    .image-border img{
+        border-radius: 10px;
+    }
+
+
+
+    /*---------------------------WHAT--------------------------*/
+    .what{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .what-title h3{
+        margin-top: 30px;
+        margin-left:0px;
+    }
+
+    /*---------------------------USE--------------------------*/
+
+    .use{
+        flex-direction: column;
+    }
+    
+    .use-title h3{
+        margin-top: 30px;
+        margin-left:0px;
+    }
+    
+    
+    .use-copy {
+        margin-left:0px; 
+    }
+
+
+    /*---------------------------WORK--------------------------*/
+
+    .work{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+    }
+
+    .work-title h2{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .work-content img {
+        width: 100%;
+        border-radius: 10px; 
+        margin-bottom: 30px; 
+    
+    }
+
+    /*---------------------------SERVICES--------------------------*/
+
+    .services{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+
+    .services-title {
+        text-align: center;
+    }
+
+    .services-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .services-content-column{
+        width: 100%;
+    }
+
+    .services-item{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /*---------------------------ABOUT--------------------------*/
+
+    .about{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .about-title h3{
+        font-size:8vw;
+        color: white;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .about-copy {
+        font-size: 5vw;
+        font-weight: 300;
+        color: white;
+        line-height: 1.5em;
+        margin-top: 30px;
+        
+    }
+
+    /*---------------------------CONTACT--------------------------*/
+
+    .contact{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-copy{
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        margin-top: 30px;
+    }
+
+    .contact-input{
+        font-size: 1rem;
+        border: none;
+        margin-top: 15px;
+        padding-right: 100px;
+        padding: 10px;    
+        border-radius: 10px;
+        background-color: rgb(71, 71, 71);
+        color: white;
+        width: 100%;
+    }
+
+    .contact-message{
+        font-size: 1rem;
+        border: none;
+        margin-top: 15px;
+        padding: 30px;
+        padding-bottom: 150px;
+        border-radius: 10px;
+        background-color: rgb(71, 71, 71);
+        color: white;
+    }
+
+    .contact-button{
+        font-size: 1rem;
+        border: none;
+        margin-top: 15px;
+        padding: 15px;
+        border-radius: 25px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+
+
+
+}
+
+
+
+

@@ -1,0 +1,112 @@
+.header{
+  padding-top: 30px;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+  flex-direction: row;
+}
+
+.header-cta{
+  padding: 15px 40px 15px 40px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(19, 19, 19);
+  border-radius: 40px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  transition-duration: 0.4s;
+  border: none;
+  cursor: pointer;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+
+.header-cta:hover {
+  background-color: #DEF36A;
+  color: rgb(21, 21, 21);
+}
+
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+.logo img{
+  width: 35px;
+  height: 40.45px;
+}  
+
+.logo-text{
+  font-size: 2rem;
+  color: #DEF36A;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.logo-divider{
+  width: 2px; 
+  height: 40.45px;
+  background-color: #DEF36A;
+  margin-left: 20px;
+  
+}
+
+.nav-scroll {
+  background: #1b1d21;
+  border-color: none;
+  opacity: 50%;
+  top: -80px;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  -o-transition: transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transform: translateY(80px);
+  -ms-transform: translateY(80px);
+  transform: translateY(80px);
+}
+
+
+@media screen and (max-width: 808px) {
+  
+  .logo img{
+    width: 30px;
+    height: 40.45px;
+   }  
+   
+   .logo-text{
+     font-size: 1rem;
+     color: #DEF36A;
+     font-weight: 500;
+     margin-left: 20px;
+   }
+   
+   .logo-divider{
+     width: 2px; 
+     height: 40.45px;
+     background-color: #DEF36A;
+     margin-left: 20px;
+   }
+  
+   .logo{
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  
+  .header-cta{
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(19, 19, 19);
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+
+}

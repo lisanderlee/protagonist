@@ -1,0 +1,41 @@
+.bg {
+    background: radial-gradient(at 90% 100%, #873740 1%, #272730 40%, #171720 80%, #070710 100%);
+    width: 100%;
+    height: 100%;
+    opacity: 30%;
+
+
+  }
+
+  .layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(63, 12, 88, 0.25) 0%, transparent 100%);
+    pointer-events: none;
+    z-index: -100;
+
+  }
+
+
+
+
+.nav-scroll {
+  background: #1b1d21;
+  border-color: none;
+  
+  opacity: 70%;
+  top: 0px;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  -o-transition: transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transform: translateY(80px);
+  -ms-transform: translateY(80px);
+  transform: translateY(80px);
+  height: 100px;
+}
+
